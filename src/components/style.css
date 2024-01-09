@@ -5,16 +5,20 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+  background-color: #282D35;
+
 }
 
 nav {
-  width: 550px;
+  width: auto;  /*  550 */
   height: 91px;
   display: flex;
   align-items: center;
   background-color: #21222A;
   padding: 30px 25px;
 }
+
+
 .nav--icon {
   width: 29px;
   height: 29px;
@@ -42,4 +46,39 @@ nav {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+main {
+  padding-left: 27px;
+  padding-top: 57px;
+  color: #FFF;
+  background-image: url(./Group.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.main--title {
+  margin:0;
+  width: 424px;
+  height: 41px;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.953px;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  line-height: normal;
+  padding-block: 10px;
+}
+
+.main--facts > li::marker {
+  color: #61DAFB;
+  font-size: 1.4rem;
 }
